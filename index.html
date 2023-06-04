@@ -4,10 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="css/style.css" />
     <title>Kopi Kenangan Senja</title>
   </head>
@@ -20,13 +17,51 @@
         <a href="#home">Home</a>
         <a href="#about">Tentang Kami</a>
         <a href="#menu">Menu</a>
+        <a href="#products">Produk</a>
         <a href="#contact">Kontak</a>
       </div>
       <div class="navbar-extra">
-        <a href="#" id="search"><i class="bx bx-search bx-md"></i></a>
-        <a href="#" id="shopping-cart"><i class="bx bx-cart-alt bx-md"></i></a>
+        <a href="#" id="search-button"><i class="bx bx-search bx-md"></i></a>
+        <a href="#" id="shopping-cart-button"><i class="bx bx-cart-alt bx-md"></i></a>
         <a href="#" id="hamburger-menu"><i class="bx bx-menu bx-md"></i></a>
       </div>
+
+      <!-- search form -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box"><i class="bx bx-search bx-md"></i></label>
+      </div>
+      <!-- search form -->
+
+      <!-- shopping cart -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="css/img/products/product1.jpg" alt="Product1">
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i class='bx bx-trash bx-md remove-item'></i>
+        </div>
+        <div class="cart-item">
+          <img src="css/img/products/product1.jpg" alt="Product1">
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i class='bx bx-trash bx-md remove-item'></i>
+        </div>
+        <div class="cart-item">
+          <img src="css/img/products/product1.jpg" alt="Product1">
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">IDR 30K</div>
+          </div>
+          <i class='bx bx-trash bx-md remove-item'></i>
+        </div>
+      </div>
+      <!-- shopping cart -->
+
     </nav>
     <!--Navbar-->
 
@@ -129,8 +164,83 @@
         </div>
       </div>
     </section>
-
     <!--Menu-->
+
+    <!-- Produk -->
+    <section class="product" id="products">
+      <h2><span>Produk Unggulan</span> Kami</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, soluta pariatur. Omnis ipsum neque ipsam!</p>
+
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i class="bx bx-cart-alt bx-sm"></i></a>
+            <a href="#" class="item-detail-button"><i class="bx bx-show bx-sm"></i></a>
+          </div>
+          <div class="product-img">
+            <img src="css/img/products/product1.jpg" alt="product1">
+          </div>
+          <div class="product-content">
+            <h3>Coffee Beans 1</h3>
+            <div class="product-rating">
+              <i class="bx bxs-star bx-sm"></i>
+              <i class="bx bxs-star bx-sm"></i>
+              <i class="bx bxs-star bx-sm"></i>
+              <i class="bx bxs-star bx-sm"></i>
+              <i class="bx bxs-star bx-sm"></i>
+            </div>
+            <div class="product-price">
+              IDR 30K <span>IDR 55K</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i class="bx bx-cart-alt bx-sm"></i></a>
+            <a href="#" class="item-detail-button"><i class="bx bx-show bx-sm"></i></a>
+          </div>
+          <div class="product-img">
+            <img src="css/img/products/product1.jpg" alt="product1">
+          </div>
+          <div class="product-content">
+            <h3>Coffee Beans 1</h3>
+            <div class="product-rating">
+              <i class="bx bxs-star bx-sm"></i>
+              <i class="bx bxs-star bx-sm"></i>
+              <i class="bx bxs-star bx-sm"></i>
+              <i class="bx bxs-star bx-sm"></i>
+              <i class="bx bxs-star bx-sm"></i>
+            </div>
+            <div class="product-price">
+              IDR 30K <span>IDR 55K</span>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i class="bx bx-cart-alt bx-sm"></i></a>
+            <a href="#"><i class="bx bx-show bx-sm"></i></a>
+          </div>
+          <div class="product-img">
+            <img src="css/img/products/product1.jpg" alt="product1">
+          </div>
+          <div class="product-content">
+            <h3>Coffee Beans 1</h3>
+            <div class="product-rating">
+              <i class="bx bxs-star bx-sm"></i>
+              <i class="bx bxs-star bx-sm"></i>
+              <i class="bx bxs-star bx-sm"></i>
+              <i class="bx bxs-star bx-sm"></i>
+              <i class="bx bxs-star bx-sm"></i>
+            </div>
+            <div class="product-price">
+              IDR 30K <span>IDR 55K</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Produk -->
 
     <!--Kontak-->
     <section id="contact" class="contact">
@@ -185,6 +295,33 @@
       </div>
     </footer>
     <!--Footer-->
+
+    <!-- modal box item -->
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#"><i class="bx bx-x bx-md close-icon"></i></a>
+        <div class="modal-content">
+          <img src="css/img/products/product1.jpg" alt="Product1">
+          <div class="product-content">
+            <h3>Product 1</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet adipisci molestias tenetur consequatur officia modi?</p>
+            <div class="product-rating">
+              <i class="bx bxs-star bx-sm"></i>
+              <i class="bx bxs-star bx-sm"></i>
+              <i class="bx bxs-star bx-sm"></i>
+              <i class="bx bxs-star bx-sm"></i>
+              <i class="bx bxs-star bx-sm"></i>
+            </div>
+            <div class="product-price">
+              IDR 30K <span>IDR 55K</span>
+            </div>
+            <a href="#"><i class="bx bx-cart-alt"></i> <span>Add To Cart</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal box item -->
+
     <script src="js/script.js"></script>
   </body>
 </html>
